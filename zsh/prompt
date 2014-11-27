@@ -1,0 +1,25 @@
+autoload -U colors && colors
+
+autoload -Uz vcs_info
+setopt PROMPT_SUBST
+zstyle ':vcs_info:*' enable git
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' stagedstr '!'
+zstyle ':vcs_info:*' unstagedstr '?'
+precmd() {
+  if [[ -z $(git ls-files --other --exclude-standard 2> /dev/null) ]] {
+    zstyle ':vcs_info:git*' formats " [%{$fg[blue]%}%b%{$reset_color%}]%{%B$fg[green]%}%c%{$reset_color%}%{%B$fg[red]%}%u%{$reset_color%}"
+  } else {
+    zstyle ':vcs_info:git*' formats " [%{$fg[red]%}%b%{$reset_color%}]%{%B$fg[green]%}%c%{$reset_color%}%{%B$fg[red]%}%u%{$reset_color%}"
+  }
+  vcs_info
+}
+
+# root is red, user is blue
+color="blue"
+if [ "$USER" = "root" ]; then
+    color="red"
+fi;
+
+prompt='%n@%m%u %B%~%b${vcs_info_msg_0_} '
+RPROMPT=''

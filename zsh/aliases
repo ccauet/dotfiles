@@ -1,0 +1,55 @@
+# Aliases in this file are bash and zsh compatible
+
+# Get operating system
+platform='unknown'
+unamestr=$(uname)
+if [[ $unamestr == 'Linux' ]]; then
+  platform='linux'
+elif [[ $unamestr == 'Darwin' ]]; then
+  platform='darwin'
+fi
+
+# PS
+alias psa="ps aux"
+alias psg="ps aux | grep "
+alias psr='ps aux | grep ruby'
+
+# Show human friendly numbers and colors
+alias df='df -h'
+alias du='du -h -d 2'
+
+if [[ $platform == 'linux' ]]; then
+  alias ll='ls -alh --color=auto'
+  alias ls='ls --color=auto'
+elif [[ $platform == 'darwin' ]]; then
+  alias ll='ls -alGh'
+  alias ls='ls -Gh'
+fi
+
+# show me files matching "ls grep"
+alias lsg='ll | grep'
+
+# Common shell functions
+alias less='less -r'
+alias tf='tail -f'
+alias l='less'
+alias lh='ls -alt | head' # see the last modified files
+alias screen='TERM=screen screen'
+alias cl='clear'
+
+# Zippin
+alias gz='tar -zcvf'
+
+alias ka9='killall -9'
+alias k9='kill -9'
+
+# Finder
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+# Homebrew
+alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
+alias casku='brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup'
+
+# Anaconda
+alias condau='conda update conda && conda update anaconda'
