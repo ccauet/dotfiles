@@ -38,6 +38,7 @@ binaries=(
   tmux
   duplicity
   s3cmd
+  vim
 )
 
 echo "installing binaries..."
