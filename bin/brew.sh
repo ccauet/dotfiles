@@ -36,6 +36,8 @@ binaries=(
   zopfli
   zsh
   tmux
+  duplicity
+  s3cmd
 )
 
 echo "installing binaries..."
