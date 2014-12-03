@@ -20,5 +20,6 @@
 							  "*.out",
 							  "*.pdf",
 							  "*.fdb_latexmk",
-							  "*.synctex.gz"],
+							  "*.synctex.gz",
+                "*.synctex.gz(busy)],
 }
