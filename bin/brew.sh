@@ -58,6 +58,7 @@ apps=(
   openoffice
   caffeine
   iterm2
+  macdown
   skim
   vlc
   latexit
