@@ -32,6 +32,7 @@ binaries=(
   pigz
   pv
   rename
+  htop
   tree
   zopfli
   zsh
