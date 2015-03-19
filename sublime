@@ -1,24 +1,30 @@
 {
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
-  "rulers": [80],
-  "translate_tabs_to_spaces": true,
-  "tab_size": 2,
-  "draw_minimap_border": false,
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"draw_minimap_border": false,
+	"file_exclude_patterns":
+	[
+		"*.aux",
+		"*.bbl",
+		"*.bcf",
+		"*.run.xml",
+		"*.blg",
+		"*.log",
+		"*.out",
+		"*.pdf",
+		"*.fdb_latexmk",
+		"*.synctex.gz"
+	],
 	"ignored_packages":
 	[
 		"Vintage",
 		"Markdown"
 	],
-	"file_exclude_patterns": [
-							  "*.aux",
-							  "*.bbl",
-							  "*.bcf",
-							  "*.run.xml",
-							  "*.blg",
-							  "*.log",
-							  "*.out",
-							  "*.pdf",
-							  "*.fdb_latexmk",
-							  "*.synctex.gz"],
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
 }
