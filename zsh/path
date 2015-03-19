@@ -1,4 +1,2 @@
-# added by anaconda 2.1.0 installer
-export PATH="/Users/ccauet/anaconda/bin:$PATH"
 # homebrew's sbin
 export PATH="/usr/local/sbin:$PATH"
