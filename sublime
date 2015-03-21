@@ -2,6 +2,7 @@
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Language - English/en_GB.dic",
+	"spell_check": true,
 	"draw_minimap_border": false,
 	"file_exclude_patterns":
 	[
