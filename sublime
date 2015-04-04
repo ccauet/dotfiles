@@ -6,7 +6,8 @@
 		"colliders",
 		"hadronic",
 		"microstrip",
-		"microstrips"
+		"microstrips",
+		"cherenkov"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
