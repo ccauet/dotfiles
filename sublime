@@ -1,11 +1,20 @@
 {
+	"WrapPlus.break_on_hyphens": false,
+	"added_words":
+	[
+		"collider",
+		"colliders",
+		"hadronic",
+		"microstrip",
+		"microstrips"
+	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Language - English/en_GB.dic",
-	"spell_check": true,
 	"draw_minimap_border": false,
 	"file_exclude_patterns":
 	[
+		".DS_Store",
 		"*.aux",
 		"*.bbl",
 		"*.bcf",
@@ -15,8 +24,11 @@
 		"*.out",
 		"*.pdf",
 		"*.fdb_latexmk",
-		"*.synctex.gz"
+		"*.synctex.gz",
+		"*.tdo",
+		"*.toc"
 	],
+	"font_size": 12,
 	"ignored_packages":
 	[
 		"Vintage",
@@ -26,6 +38,7 @@
 	[
 		80
 	],
+	"spell_check": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true
 }
