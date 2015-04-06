@@ -7,7 +7,10 @@
 		"hadronic",
 		"microstrip",
 		"microstrips",
-		"cherenkov"
+		"cherenkov",
+		"scintillator",
+		"pions",
+		"charmonium"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
