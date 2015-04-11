@@ -11,7 +11,12 @@
 		"scintillator",
 		"pions",
 		"charmonium",
-		"online"
+		"online",
+		"kaon",
+		"mistag",
+		"hadronisation",
+		"taggers",
+		"tagger"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
