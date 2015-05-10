@@ -23,7 +23,9 @@
 		"pseudorapidity",
 		"reweighted",
 		"reweighting",
-		"Cabibbo"
+		"Cabibbo",
+		"subsample",
+		"subsamples"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
