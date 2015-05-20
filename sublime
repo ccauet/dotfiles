@@ -26,7 +26,10 @@
 		"Cabibbo",
 		"subsample",
 		"subsamples",
-		"offline"
+		"offline",
+		"Lognormal",
+		"lognormal",
+		"Ipatia"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
