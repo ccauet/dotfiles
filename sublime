@@ -34,7 +34,12 @@
 		"Higgs",
 		"fermionic",
 		"bosonic",
-		"gluons"
+		"gluons",
+		"renormalisability",
+		"diagonalisation",
+		"Yukawa",
+		"unitarity",
+		"Wolfenstein"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
