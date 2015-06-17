@@ -39,7 +39,8 @@
 		"diagonalisation",
 		"Yukawa",
 		"unitarity",
-		"Wolfenstein"
+		"Wolfenstein",
+		"Feynman"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
@@ -64,8 +65,8 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"rulers":
 	[
