@@ -40,7 +40,9 @@
 		"Yukawa",
 		"unitarity",
 		"Wolfenstein",
-		"Feynman"
+		"Feynman",
+		"toolchain",
+		"reoptimisation"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
