@@ -42,7 +42,9 @@
 		"Wolfenstein",
 		"Feynman",
 		"toolchain",
-		"reoptimisation"
+		"reoptimisation",
+		"chirality",
+		"overbar"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
