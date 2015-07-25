@@ -44,7 +44,17 @@
 		"toolchain",
 		"reoptimisation",
 		"chirality",
-		"overbar"
+		"overbar",
+		"parton",
+		"partons",
+		"hadronise",
+		"hadronises",
+		"setup",
+		"antiquark",
+		"unbinned",
+		"Wishahi",
+		"Maskawa",
+		"Sakharov"
 	],
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"default_encoding": "UTF-8",
