@@ -122,6 +122,9 @@
   # the usual default is to push all branches
   default = simple
 
+[pull]
+  rebase = true
+
 [core]
   autocrlf = false
   editor = vim
