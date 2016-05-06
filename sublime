@@ -56,7 +56,8 @@
 		"unbinned",
 		"Wishahi",
 		"Maskawa",
-		"Sakharov"
+		"Sakharov",
+		"config"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"default_encoding": "UTF-8",
@@ -76,7 +77,12 @@
 		"*.fdb_latexmk",
 		"*.synctex.gz",
 		"*.tdo",
-		"*.toc"
+		"*.toc",
+		"*.pyc"
+	],
+	"folder_exclude_patterns":
+	[
+		"__pycache__"
 	],
 	"font_size": 14,
 	"ignored_packages":

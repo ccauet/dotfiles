@@ -1,3 +1,6 @@
+# add go path to path
+export GOPATH="/Users/ccauet/.go"
+export PATH="${GOPATH//://bin:}/bin:$PATH"
 # homebrew's sbin
 export PATH="/usr/local/sbin:$PATH"
 # added by Anaconda 2.3.0 installer
