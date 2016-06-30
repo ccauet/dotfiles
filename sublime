@@ -57,7 +57,9 @@
 		"Wishahi",
 		"Maskawa",
 		"Sakharov",
-		"config"
+		"config",
+		"unternehmensübergreifende",
+		"Science"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"default_encoding": "UTF-8",
@@ -87,6 +89,7 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
+		"Jedi - Python autocompletion",
 		"Markdown",
 		"Vintage"
 	],
