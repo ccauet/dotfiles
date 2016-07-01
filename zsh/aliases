@@ -36,6 +36,7 @@ alias l='less'
 alias lh='ls -alt | head' # see the last modified files
 alias screen='TERM=screen screen'
 alias cl='clear'
+alias o='open .'
 
 # Zippin
 alias gz='tar -zcvf'
