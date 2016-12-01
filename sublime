@@ -59,7 +59,8 @@
 		"Sakharov",
 		"config",
 		"unternehmensübergreifende",
-		"Science"
+		"Science",
+		"Startup"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"default_encoding": "UTF-8",
@@ -84,7 +85,11 @@
 	],
 	"folder_exclude_patterns":
 	[
-		"__pycache__"
+		"__pycache__",
+		".cache",
+		".eggs",
+		".ipynb_checkpoints",
+		".git"
 	],
 	"font_size": 14,
 	"ignored_packages":
