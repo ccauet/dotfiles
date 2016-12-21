@@ -60,5 +60,5 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias s='subl -n .'
 
 # hledger
-alias hledger='hledger -f point8.journal'
-alias ledger='ledger -f journal'
+alias hledg='hledger -f journal'
+alias ledg='ledger -f journal'
