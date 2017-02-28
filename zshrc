@@ -85,3 +85,6 @@ unsetopt list_beep              # no bell on ambiguous completion
 unsetopt rm_star_silent         # ask for confirmation for `rm *' or `rm path/*'
 setopt AUTO_CD					# if command is a path, cd into it
 print -Pn "\e]0; %n@%M: %~\a"   # terminal title
+
+# History search
+# stty -ixon
