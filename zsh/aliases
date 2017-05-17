@@ -54,6 +54,7 @@ alias casku='brew update && brew upgrade brew-cask && brew cleanup && brew cask 
 
 # Anaconda
 alias condau='conda update conda && conda update anaconda'
+alias py3='source activate py3'
 
 # Sublime Text
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'

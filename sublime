@@ -62,7 +62,7 @@
 		"Science",
 		"Startup"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Dictionaries/German_de_DE.dic",
 	"draw_minimap_border": false,
