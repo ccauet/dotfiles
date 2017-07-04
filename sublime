@@ -60,7 +60,10 @@
 		"config",
 		"unternehmensübergreifende",
 		"Science",
-		"Startup"
+		"Startup",
+		"Observablen",
+		"Bohrerbruch",
+		"Fourierentwicklung"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
 	"default_encoding": "UTF-8",
