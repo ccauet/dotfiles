@@ -7,3 +7,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/Users/ccauet/anaconda/bin:$PATH"
 # add cabal to path
 export PATH="/Users/ccauet/.cabal/bin:$PATH"
+
+# Point 8
+# plutos data path
+export PLUTOS_DATA_PATH="/Users/ccauet/Repositories/p8/accounting/data"
