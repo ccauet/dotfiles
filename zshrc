@@ -88,3 +88,6 @@ print -Pn "\e]0; %n@%M: %~\a"   # terminal title
 
 # History search
 # stty -ixon
+
+# define gpg
+export GPG_TTY=$(tty)

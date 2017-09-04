@@ -1,6 +1,5 @@
 [user]
-	name = 
-	email = 
+	signingkey = 436146CD
 
 [color]
   ui = true
@@ -34,6 +33,7 @@
   # commit
   c = commit -m                     # commit with message
   ca = commit -am                   # commit all with message
+  cas = commit -S -am                   # commit all with message and sign with gpg key
   ci = commit                       # commit
   amend = commit --amend            # ammend your last commit
   ammend = commit --amend           # ammend your last commit
@@ -153,3 +153,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[gpg]
+	program = gpg
