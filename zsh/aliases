@@ -67,4 +67,5 @@ alias ledg='ledger -f journal'
 
 # Jupyter notebboks
 alias jn='jupyter notebook'
+alias lab='jupyter lab'
 
