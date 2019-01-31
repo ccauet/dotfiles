@@ -50,12 +50,12 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
-alias casku='brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup'
+alias brewu='brew update && brew upgrade && brew cask upgrade && brew cleanup && brew doctor'
 
 # Anaconda
 alias condau='conda update conda && conda update anaconda'
-alias py3='source activate py3'
 alias py2='source activate py2'
+alias py3='source activate py3'
 
 # Sublime Text
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
