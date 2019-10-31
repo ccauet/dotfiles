@@ -69,3 +69,5 @@ alias ledg='ledger -f journal'
 alias jn='jupyter notebook'
 alias lab='jupyter lab'
 
+# Taskwarrior
+alias tt='task next'
