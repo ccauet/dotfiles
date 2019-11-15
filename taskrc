@@ -13,6 +13,10 @@ urgency.inherit=on
 # Priority
 uda.priority.label=prio
 uda.priority.values=H,M,,L
+urgency.uda.priority.L.coefficient=-1.9
+
+# Tags
+urgency.tags.coefficient=0.5
 
 # Context
 context.briefing=+Florian
