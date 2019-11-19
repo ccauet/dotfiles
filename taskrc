@@ -23,6 +23,13 @@ context.briefing=+Florian
 context.private=project.not:p8
 context.work=project:p8
 
+# Custom report
+report.r.description=Most urgent tasks (custom)
+report.r.labels=Active,ID,Urg,P,Description,Deps,Tag,Project,Recur,S,Due,Age
+report.r.columns=start.age,id,urgency,priority,description,depends,tags,project,recur,scheduled.countdown,due.relative,entry.age
+report.r.filter=status:pending limit:page
+report.r.sort=urgency-
+
 # Themes
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-16.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-256.theme
