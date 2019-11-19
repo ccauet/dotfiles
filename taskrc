@@ -9,14 +9,12 @@ weekstart=monday
 
 # Urgency
 urgency.inherit=on
+urgency.tags.coefficient=0.5
 
 # Priority
 uda.priority.label=prio
 uda.priority.values=H,M,,L
 urgency.uda.priority.L.coefficient=-1.9
-
-# Tags
-urgency.tags.coefficient=0.5
 
 # Context
 context.briefing=+Florian
@@ -45,6 +43,8 @@ include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/dark-yellow-green.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/no-color.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-dark-256.theme
 #include /usr/local/Cellar/task/2.5.1/share/doc/task/rc/solarized-light-256.theme
+
+# Review
 uda.reviewed.type=date
 uda.reviewed.label=Reviewed
 report._reviewed.description=Tasksh review report.  Adjust the filter to your needs.
