@@ -20,6 +20,7 @@ urgency.uda.priority.L.coefficient=-1.9
 context.briefing=+Florian or +COO or +MX
 context.private=-HR and -IT and -CD and -LG and -PR and -FC and -KM and -AD and -ST and -SW and -COO
 context.work=+HR or +IT or +CD or +LG or +PR or +FC or +KM or +AD or +ST
+context.clients=+SW
 
 # Custom report
 report.rf.description=Most urgent tasks (custom)
@@ -31,7 +32,7 @@ report.rf.sort=urgency-
 report.r.description=Most urgent tasks (custom)
 report.r.labels=Active,ID,Urg,P,Description,Deps,Tag,Project,Recur,S,Due,Age
 report.r.columns=start.age,id,urgency,priority,description,depends,tags,project,recur,scheduled.countdown,due.relative,entry.age
-report.r.filter=status:pending limit:page due.before:eoww
+report.r.filter=status:pending limit:page due.before:eoww+1sd
 report.r.sort=urgency-
 
 # Themes
@@ -57,4 +58,4 @@ report._reviewed.description=Tasksh review report.  Adjust the filter to your ne
 report._reviewed.columns=uuid
 report._reviewed.sort=reviewed+,modified+
 report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
-context.clients=+SW
+context=work
