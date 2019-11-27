@@ -19,7 +19,7 @@ urgency.uda.priority.L.coefficient=-1.9
 # Context
 context.briefing=+Florian or +COO or +MX
 context.private=-HR and -IT and -CD and -LG and -PR and -FC and -KM and -AD and -ST and -SW and -COO
-context.work=+HR or +IT or +CD or +LG or +PR or +FC or +KM or +AD or +ST
+context.work=+HR or +IT or +CD or +LG or +PR or +FC or +KM or +AD or +ST or +MX or +COO
 context.clients=+SW
 
 # Custom report
@@ -58,4 +58,3 @@ report._reviewed.description=Tasksh review report.  Adjust the filter to your ne
 report._reviewed.columns=uuid
 report._reviewed.sort=reviewed+,modified+
 report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
-context=work
