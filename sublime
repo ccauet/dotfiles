@@ -66,7 +66,7 @@
 		"Fourierentwicklung",
 		""
 	],
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_minimap_border": false,
