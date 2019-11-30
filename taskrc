@@ -20,7 +20,7 @@ urgency.uda.priority.L.coefficient=-1.9
 context.briefing=+Florian or +COO or +MX
 context.private=-HR and -IT and -CD and -LG and -PR and -FC and -KM and -AD and -ST and -SW and -COO
 context.work=+HR or +IT or +CD or +LG or +PR or +FC or +KM or +AD or +ST or +MX or +COO
-context.clients=+SW
+context.clients=project:sw
 
 # Custom report
 report.rf.description=Most urgent tasks (custom)
