@@ -2,9 +2,11 @@
 data.location=~/Dropbox/Sync/TaskWarrior
 
 # Editor
-editor=vim
 
-# Misc
+
+# Basic config
+editor=vim
+tasksh.autoclear=true
 weekstart=monday
 
 # Urgency
@@ -14,7 +16,7 @@ urgency.tags.coefficient=0.5
 # Priority
 uda.priority.label=prio
 uda.priority.values=H,M,,L
-urgency.uda.priority.L.coefficient=-1.9
+urgency.uda.priority.L.coefficient=-1.2
 
 # Context
 context.briefing=+Florian or +COO or +MX
