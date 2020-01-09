@@ -24,13 +24,21 @@ context.private=-HR and -IT and -CD and -LG and -PR and -FC and -KM and -AD and 
 context.work=+HR or +IT or +CD or +LG or +PR or +FC or +KM or +AD or +ST or +MX or +COO
 context.clients=project:sw
 
-# Custom report
+# "Report Long" (all pending tasks)
+report.rl.description=Most urgent tasks (custom)
+report.rl.labels=Active,ID,Urg,P,Description,Deps,Tag,Project,Recur,S,Due,Age
+report.rl.columns=start.age,id,urgency,priority,description,depends,tags,project,recur,scheduled.countdown,due.relative,entry.age
+report.rl.filter=status:pending
+report.rl.sort=urgency-
+
+# "Report Full" (one page of pending tasks)
 report.rf.description=Most urgent tasks (custom)
 report.rf.labels=Active,ID,Urg,P,Description,Deps,Tag,Project,Recur,S,Due,Age
 report.rf.columns=start.age,id,urgency,priority,description,depends,tags,project,recur,scheduled.countdown,due.relative,entry.age
 report.rf.filter=status:pending limit:page
 report.rf.sort=urgency-
 
+# "Weekly Report" (all tasks due this week)
 report.r.description=Most urgent tasks (custom)
 report.r.labels=Active,ID,Urg,P,Description,Deps,Tag,Project,Recur,S,Due,Age
 report.r.columns=start.age,id,urgency,priority,description,depends,tags,project,recur,scheduled.countdown,due.relative,entry.age
