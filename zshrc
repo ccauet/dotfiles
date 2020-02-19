@@ -24,6 +24,9 @@ export VISUAL=vim
 # key bindings
 bindkey '^R' history-incremental-pattern-search-backward
 
+# poetry tab completion
+fpath+="${HOME}/.zfunc"
+
 # completion
 autoload -U compinit
 compinit
