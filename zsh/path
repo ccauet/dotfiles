@@ -7,6 +7,8 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/Users/ccauet/anaconda3/bin:$PATH"
 # add cabal to path
 export PATH="/Users/ccauet/.cabal/bin:$PATH"
+# add poetry package manager
+export PATH="$HOME/.poetry/bin:$PATH"
 
 # Point 8
 # plutos data path
