@@ -1,5 +1,7 @@
 [user]
-	signingkey = 436146CD
+  name = Christophe Cauet
+  email = christophe@cauet.de
+  signingkey = 436146CD
 
 [color]
   ui = true
@@ -128,7 +130,10 @@
 [core]
   autocrlf = false
   editor = vim
-	excludesfile = /Users/ccauet/.gitignore_global
+	excludesfile = ~/.gitignore
+
+[help]
+  autocorrect = 1
 
 [advice]
   statusHints = false
@@ -166,3 +171,7 @@
 	prompt = false
 [mergetool "nbdime"]
 	cmd = git-nbmergetool merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+
+[includeIf "gitdir:~/Repositories/p8/"]
+  path = ~/Repositories/p8/.gitconfig
+
