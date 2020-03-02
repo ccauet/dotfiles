@@ -66,7 +66,7 @@ alias s='subl -n .'
 alias hledg='hledger -f journal'
 alias ledg='ledger -f journal'
 
-# Jupyter notebboks
+# Jupyter notebooks
 alias jn='jupyter notebook'
 alias lab='jupyter lab'
 

@@ -94,3 +94,7 @@ print -Pn "\e]0; %n@%M: %~\a"   # terminal title
 
 # define gpg
 export GPG_TTY=$(tty)
+
+# pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
