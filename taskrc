@@ -20,8 +20,8 @@ urgency.uda.priority.L.coefficient=-1.2
 
 # Context
 context.briefing=+Florian or +COO or +MX
-context.private=-HR and -IT and -CD and -LG and -PR and -FC and -KM and -AD and -ST and -SW and -COO
-context.work=+HR or +IT or +CD or +LG or +PR or +FC or +KM or +AD or +ST or +MX or +COO
+context.private=-HR and -IT and -CD and -LG and -PR and -FC and -KM and -AD and -RD and -ST and -MX and -SW and -COO
+context.work=+HR or +IT or +CD or +LG or +PR or +FC or +KM or +AD or +RD or +ST or +MX or +COO or project:sw
 context.clients=project:sw
 context.podcast=project:podcast
 
