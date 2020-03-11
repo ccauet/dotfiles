@@ -21,5 +21,6 @@ if [ "$USER" = "root" ]; then
     color="red"
 fi;
 
-prompt='%n@%m%u %B%~%b${vcs_info_msg_0_} '
+# prompt='[%T] %n@%m %B%~%b${vcs_info_msg_0_} '
+prompt='[%T] %B%2~%b${vcs_info_msg_0_} '
 RPROMPT=''
