@@ -98,3 +98,6 @@ export GPG_TTY=$(tty)
 # pyenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# mattermost CLI
+source <(mmctl completion zsh)
