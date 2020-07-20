@@ -94,9 +94,9 @@
 		".eggs",
 		"*.egg-info",
 		".ipynb_checkpoints",
-		".git"
+		".git/"
 	],
-	"font_size": 19,
+	"font_size": 17,
 	"ignored_packages":
 	[
 		"Markdown",
@@ -108,5 +108,7 @@
 	],
 	"spell_check": true,
 	"tab_size": 4,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	// Set to true to removing trailing white space on save 
+	"trim_trailing_white_space_on_save": true,
 }
