@@ -176,3 +176,5 @@
 [includeIf "gitdir:~/Repositories/p8/"]
   path = ~/Repositories/p8/.gitconfig
 
+[init]
+	defaultBranch = main
