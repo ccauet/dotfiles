@@ -3,8 +3,6 @@ export GOPATH="/Users/ccauet/.go"
 export PATH="${GOPATH//://bin:}/bin:$PATH"
 # homebrew's sbin
 export PATH="/usr/local/sbin:$PATH"
-# added by Anaconda 2.3.0 installer
-export PATH="/Users/ccauet/anaconda3/bin:$PATH"
 # add cabal to path
 export PATH="/Users/ccauet/.cabal/bin:$PATH"
 # add poetry package manager

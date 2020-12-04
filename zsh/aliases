@@ -51,8 +51,7 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 # Homebrew
 alias brewu='brew update && brew upgrade && brew cask upgrade && brew cleanup && brew doctor'
 
-# Anaconda
-alias condau='conda update conda && conda update anaconda'
+# pyenv
 alias pyansible='pyenv activate ansible'
 alias py2='pyenv activate py2'
 alias py36='pyenv activate py36'

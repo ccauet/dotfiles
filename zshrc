@@ -100,4 +100,4 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # mattermost CLI
-source <(mmctl completion zsh)
+# source <(mmctl completion zsh)
