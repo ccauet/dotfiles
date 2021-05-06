@@ -53,10 +53,8 @@ alias brewu='brew update && brew upgrade && brew cask upgrade && brew cleanup &&
 
 # pyenv
 alias pyansible='pyenv activate ansible'
-alias py2='pyenv activate py2'
-alias py36='pyenv activate py36'
-alias py37='pyenv activate py37'
 alias py38='pyenv activate py38'
+alias py39='pyenv activate py39'
 
 # Sublime Text
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
