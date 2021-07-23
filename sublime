@@ -96,7 +96,7 @@
 		".ipynb_checkpoints",
 		".git/"
 	],
-	"font_size": 22,
+	"font_size": 19,
 	"ignored_packages":
 	[
 		"Markdown",

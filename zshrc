@@ -101,3 +101,5 @@ eval "$(pyenv virtualenv-init -)"
 
 # mattermost CLI
 # source <(mmctl completion zsh)
+
+export PATH="$HOME/.poetry/bin:$PATH"
