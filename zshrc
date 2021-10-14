@@ -96,8 +96,10 @@ print -Pn "\e]0; %n@%M: %~\a"   # terminal title
 export GPG_TTY=$(tty)
 
 # pyenv
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
 
 # mattermost CLI
 # source <(mmctl completion zsh)
