@@ -1,6 +1,6 @@
 [user]
   name = Christophe Cauet
-  email = christophe@cauet.de
+  email = ccauet@point-8.de
   signingkey = 436146CD
 
 [color]
@@ -112,6 +112,7 @@
   verbosity = 1
   tool = mvimdiff
   ff = false
+  conflictstyle = diff3
 
 [apply]
   whitespace = nowarn

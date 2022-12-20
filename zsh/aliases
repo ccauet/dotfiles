@@ -60,6 +60,10 @@ alias py39='pyenv activate py39'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias s='subl -n .'
 
+# VS Code
+alias vscode='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+alias vs='vscode -n .'
+
 # hledger
 alias hledg='hledger -f journal'
 alias ledg='ledger -f journal'
