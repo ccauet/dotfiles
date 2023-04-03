@@ -14,9 +14,10 @@ urgency.inherit=on
 urgency.tags.coefficient=0.5
 
 # Priority
-uda.priority.label=prio
-uda.priority.values=H,M,,L
-urgency.uda.priority.L.coefficient=-1.2
+# Incompatible with taskw, due to hardcoded expectations
+# uda.priority.label=prio
+# uda.priority.values=H,M,,L
+# urgency.uda.priority.L.coefficient=-1.2
 
 # Context
 context.briefing=+Florian or +COO or +MX
@@ -84,3 +85,11 @@ report._reviewed.columns=uuid
 report._reviewed.sort=reviewed+,modified+
 report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
 news.version=2.6.0
+uda.gitlab_issue_id.type=numeric
+uda.gitlab_issue_id.label=Gitlab_ID
+uda.gitlab_project.type=string
+uda.gitlab_project.label=Gitlab_Project
+uda.gitlab_web_url.type=string
+uda.gitlab_web_url.label=Gitlab_Web_URL
+uda.gitlab_issue_state.type=string
+uda.gitlab_issue_state.label=Gitlab_State
