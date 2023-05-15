@@ -6,11 +6,8 @@ export PATH="/usr/local/sbin:$PATH"
 # add cabal to path
 export PATH="/Users/ccauet/.cabal/bin:$PATH"
 # add poetry package manager
-export PATH="$HOME/.poetry/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Point 8
-# plutos data path
-export PLUTOS_DATA_PATH="/Users/ccauet/Repositories/p8/accounting/data"
-
 # Point 8 homebrew tap
 export HOMEBREW_NEXTCLOUD_PATH="/Users/ccauet/Nextcloud/Point 8/"
